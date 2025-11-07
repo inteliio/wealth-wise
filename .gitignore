@@ -1,0 +1,61 @@
+# =======================================
+# Node / Next.js .gitignore
+# =======================================
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# build output
+/.next
+/out
+/build
+/dist
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# local Next.js cache
+.next/
+.vercel/
+.vscode/
+.idea/
+*.swp
+
+# system files
+.DS_Store
+Thumbs.db
+
+# optional editor files
+*.sublime-project
+*.sublime-workspace
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# lockfiles (optional – if you switch between npm/yarn)
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# test coverage
+coverage
+
+# misc
+*.log
+*.tgz
+
+# local media or uploads (if not meant for repo)
+public/uploads
