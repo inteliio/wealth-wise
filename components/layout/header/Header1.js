@@ -6,7 +6,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
   return (
     <>
       <header className={`main-header header-style-one ${scroll ? "fixed-header" : ""}`}>
-        {/* Header Top */}
+        {/* Горен дел на хедерот */}
         <div className="header-top">
           <div className="auto-container">
             <div className="top-inner" style={{ padding: "10px 50px 10px 50px" }}>
@@ -14,11 +14,11 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                 <ul className="info clearfix">
                   <li>
                     <i className="icon-2"></i>
-                    <Link href="tel:+38971347436">+38971447436</Link>
+                    <Link href="tel:+38971347436">+389 71 447 436</Link>
                   </li>
                   <li>
                     <i className="icon-3"></i>
-                    <Link href="mailto:info@example.com">andrej.cvetkovski@example.com</Link>
+                    <Link href="mailto:andrej.cvetkovski@example.com">andrej.cvetkovski@example.com</Link>
                   </li>
                 </ul>
               </div>
@@ -44,19 +44,20 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
             </div>
           </div>
         </div>
-        {/* Header Upper */}
+
+        {/* Главен дел на хедерот */}
         <div className="header-lower">
           <div className="auto-container">
             <div className="outer-box">
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/">
-                    <img src="/assets/wealth-wise/logo/logo.svg" alt="" />
+                    <img src="/assets/wealth-wise/logo/logo.svg" alt="Wealth Wise" />
                   </Link>
                 </figure>
               </div>
               <div className="menu-area clearfix">
-                {/* Mobile Navigation Toggler */}
+                {/* Мобилно мени */}
                 <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
                   <i className="icon-bar"></i>
                   <i className="icon-bar"></i>
@@ -69,25 +70,22 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                 </nav>
               </div>
               <ul className="menu-right-content">
-                <li className="search-box-outer search-toggler" onClick={handlePopup}>
-                  <i className="icon-4"></i>
-                </li>
                 <li className="btn-box">
-                  <Link href="/contact">Free Consulting</Link>
+                  <Link href="/contact">Бесплатна консултација</Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        {/*End Header Upper*/}
-        {/* Sticky Header  */}
+
+        {/* Фиксен хедер при скролање */}
         <div className={`sticky-header ${scroll ? "animated slideInDown" : ""}`}>
           <div className="auto-container">
             <div className="outer-box">
               <div className="logo-box">
                 <figure className="logo">
                   <Link href="/">
-                    <img src="/assets/wealth-wise/logo/logo.svg" alt="/" />
+                    <img src="/assets/wealth-wise/logo/logo.svg" alt="Wealth Wise" />
                   </Link>
                 </figure>
               </div>
@@ -103,15 +101,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
                   <i className="icon-4"></i>
                 </li>
                 <li className="btn-box">
-                  <Link href="/contact">Free Consulting</Link>
+                  <Link href="/contact">Бесплатна консултација</Link>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-        {/* End Sticky Menu */}
-        {/* Mobile Menu  */}
 
+        {/* Мобилно мени */}
         <MobileMenu handleMobileMenu={handleMobileMenu} />
       </header>
     </>

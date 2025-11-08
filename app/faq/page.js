@@ -89,7 +89,7 @@ export default function Home() {
                     <li className="accordion block">
                       <div className={isActive.key == 5 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(5)}>
                         <div className="icon-box"></div>
-                        <h3>What is the future plan for BizTech?</h3>
+                        <h3>What is the future plan for Wealth Wise?</h3>
                       </div>
                       <div className={isActive.key == 5 ? "acc-content current" : "acc-content"}>
                         <div className="content">

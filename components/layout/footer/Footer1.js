@@ -11,91 +11,78 @@ export default function Footer1() {
           </div>
           <div className="auto-container">
             <div className="row clearfix">
+              {/* Лого и опис */}
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="logo-widget footer-widget">
                   <figure className="footer-logo">
                     <Link href="#">
-                      <img src="/assets/wealth-wise/logo/logo.svg" alt="" />
+                      <img src="/assets/wealth-wise/logo/logo.svg" alt="Wealth Wise Logo" />
                     </Link>
                   </figure>
                   <div className="text">
-                    <p>Lorem ipsum dolor sit amet consectetur adipiscing elitsollicit udin netus quis ornare. Massa pharetra in nec sed nunc.</p>
-                    <p>nisl viverra massa imperdiet. Dui mattis quis congue fames.</p>
+                    <p>Wealth Wise е ваш сигурен партнер во финансиско планирање, инвестиции и осигурување. Нашата цел е да ви помогнеме да изградите стабилна и сигурна иднина.</p>
+                    <p>Со нас, добивате професионален пристап, доверба и резултати што траат.</p>
                   </div>
                 </div>
               </div>
+
+              {/* Брзи линкови */}
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="links-widget footer-widget ml_50">
                   <div className="widget-title">
-                    <h3>Quick Link</h3>
+                    <h3>Брзи линкови</h3>
                   </div>
                   <div className="widget-content">
                     <ul className="links-list clearfix">
                       <li>
-                        <Link href="/about-us">About Us</Link>
+                        <Link href="/about-us">За нас</Link>
                       </li>
                       <li>
-                        <Link href="/services1">Services</Link>
+                        <Link href="/services1">Услуги</Link>
                       </li>
                       <li>
-                        <Link href="/career">Career</Link>
-                      </li>
-                      <li>
-                        <Link href="/pricing-table">Pricing</Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">Contact Us</Link>
+                        <Link href="/contact">Контакт</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
 
+              {/* Корисни линкови */}
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="links-widget footer-widget ml_30">
                   <div className="widget-title">
-                    <h3>Useful Links</h3>
+                    <h3>Корисни информации</h3>
                   </div>
                   <div className="widget-content">
                     <ul className="links-list clearfix">
                       <li>
-                        <Link href="#">Privacy Policy</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Terms & Condition</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Support</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Disclaimer</Link>
-                      </li>
-                      <li>
-                        <Link href="/faq">Faq</Link>
+                        <Link href="#">Политика за приватност</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
 
+              {/* Контакт */}
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="contact-widget footer-widget">
                   <div className="widget-title">
-                    <h3>Contact</h3>
+                    <h3>Контакт</h3>
                   </div>
                   <div className="widget-content">
-                    <p>Tincidunt neque pretium lectus donec risus.</p>
+                    <p>Секогаш достапни за консултација и поддршка.</p>
                     <ul className="info-list clearfix">
                       <li>
-                        <i className="icon-23"></i>New Hyde Park, NY 11040
+                        <i className="icon-23"></i>Скопје, Македонија
                       </li>
                       <li>
                         <i className="icon-3"></i>
-                        <Link href="mailto:example@info.com">example@info.com</Link>
+                        <Link href="mailto:info@wealthwise.mk">info@wealthwise.mk</Link>
                       </li>
                       <li>
                         <i className="icon-2"></i>
-                        <Link href="tel:912136660027">333 666 0000</Link>
+                        <Link href="tel:+38970123456">+389 70 123 456</Link>
                       </li>
                     </ul>
                   </div>
@@ -104,11 +91,17 @@ export default function Footer1() {
             </div>
           </div>
         </div>
+
+        {/* Долен дел */}
         <div className="footer-bottom centred">
           <div className="auto-container">
             <div className="copyright">
               <p>
-                Copyright {new Date().getFullYear()} by <Link href="#">biztech</Link> theme All Right Reserved.
+                © 2025 Inteliio. Сите права задржани. Овозможено од{" "}
+                <Link target="_blank" href="https://inteliio.com/">
+                  Inteliio
+                </Link>
+                .
               </p>
             </div>
           </div>

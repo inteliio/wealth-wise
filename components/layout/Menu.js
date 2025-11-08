@@ -8,17 +8,17 @@ export default function Menu() {
     <>
       <ul className="navigation clearfix">
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/">Дома</Link>
         </li>
         <li>
-          <Link href="/services1">Services</Link>
+          <Link href="/services">Сервиси</Link>
         </li>
         <li>
-          <Link href="/about-us">About Us</Link>
+          <Link href="/about-us">За Нас</Link>
         </li>
 
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">Контакт</Link>
         </li>
       </ul>
     </>

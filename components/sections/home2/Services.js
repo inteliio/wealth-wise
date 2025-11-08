@@ -13,10 +13,10 @@ export default function Services() {
       <section className="service-style-two p_relative bg-color-1">
         <div className="auto-container">
           <div className="sec-title centred mb_50">
-            <span className="sub-title">What We Do</span>
+            <span className="sub-title">Наши услуги</span>
             <h2>
-              Provide the Best Consulting <br />
-              in This Industry
+              Финансиски решенија и консултации <br />
+              прилагодени на вашите потреби
             </h2>
           </div>
           <div className="row clearfix">

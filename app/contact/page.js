@@ -1,60 +1,70 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Get in touch">
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Контактирајте нè">
         <div>
-          {/* Feature Section */}
+          {/* Секција: Контакт информации */}
           <section className="feature-style-three p_relative centred">
             <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-31.png)" }}></div>
             <div className="auto-container">
               <div className="sec-title mb_100">
-                <span className="sub-title">Contact Info</span>
-                <h2>We’d Love To Help You</h2>
+                <span className="sub-title">Контакт информации</span>
+                <h2>Со задоволство ќе ви помогнеме</h2>
               </div>
               <div className="row clearfix">
                 <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                   <div className="feature-block-three wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                     <div className="inner-box">
-                      <div className="block-shape" style={{ backgroundImage: "url(assets/images/shape/shape-32.png)" }}></div>
+                      <div
+                        className="block-shape"
+                        style={{
+                          backgroundImage: "url(assets/images/shape/shape-32.png)",
+                        }}></div>
                       <div className="icon-box">
                         <i className="icon-48"></i>
                       </div>
-                      <h3>Our Location</h3>
+                      <h3>Локација</h3>
                       <p>
-                        1901 Thornridge Cir. Shiloh, <br />
-                        Hawaii 81063
+                        Скопје, Македонија <br />
                       </p>
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                   <div className="feature-block-three wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                     <div className="inner-box">
                       <div className="icon-box">
                         <i className="icon-49"></i>
                       </div>
-                      <h3>Email Address</h3>
+                      <h3>Е-пошта</h3>
                       <p>
-                        <Link href="mailto:contact@example.com">contact@example.com</Link>
+                        <Link href="mailto:info@wealthwise.mk">info@wealthwise.mk</Link>
                         <br />
-                        <Link href="mailto:support@example.com">support@example.com</Link>
+                        <Link href="mailto:support@wealthwise.mk">support@wealthwise.mk</Link>
                       </p>
                     </div>
                   </div>
                 </div>
+
                 <div className="col-lg-4 col-md-6 col-sm-12 feature-block">
                   <div className="feature-block-three wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
                     <div className="inner-box">
-                      <div className="block-shape" style={{ backgroundImage: "url(assets/images/shape/shape-33.png)" }}></div>
+                      <div
+                        className="block-shape"
+                        style={{
+                          backgroundImage: "url(assets/images/shape/shape-33.png)",
+                        }}></div>
                       <div className="icon-box">
                         <i className="icon-50"></i>
                       </div>
-                      <h3>Phone Number</h3>
+                      <h3>Телефон</h3>
                       <p>
-                        Emergency Cases <br />
-                        <Link href="tel:2085550112">+(208) 555-0112</Link> (24/7)
+                        Контакт за клиенти <br />
+                        <Link href="tel:+38970123456">+389 70 123 456</Link> (24/7)
                       </p>
                     </div>
                   </div>
@@ -62,65 +72,61 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* Feature Section End */}
+          {/* Крај на секцијата за контакт информации */}
 
-          {/* Contact Form Section */}
+          {/* Секција: Контакт форма */}
           <section className="contact-style-two sec-pad">
             <div className="auto-container">
               <div className="row clearfix">
                 <div className="col-lg-4 col-md-12 col-sm-12 content-column">
                   <div className="content-box mr_70">
                     <div className="sec-title mb_35">
-                      <span className="sub-title">Message</span>
-                      <h2>Feel Free to Contact with us</h2>
-                      <p className="mt_20">Lorem ipsum dolor sit amet, consectetur adipiscing elit et aenean orci egestas arcu interdum nisl magna.</p>
+                      <span className="sub-title">Порака</span>
+                      <h2>Слободно контактирајте нè</h2>
+                      <p className="mt_20">Пополнете ја формата и нашиот тим ќе ве контактира во најбрз можен рок. Тука сме за сите ваши прашања поврзани со инвестиции, осигурување и финансиски совети.</p>
                     </div>
                     <ul className="social-links clearfix">
                       <li>
-                        <Link href="/contact">
+                        <Link href="https://www.facebook.com/p/Wealth-Wise-Official-61575524496076/" target="_blank">
                           <i className="fab fa-facebook-f"></i>
                         </Link>
                       </li>
                       <li>
-                        <Link href="/contact">
-                          <i className="fab fa-twitter"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">
-                          <i className="fab fa-pinterest-p"></i>
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/contact">
+                        <Link href="https://www.instagram.com/wealth.wise.official/" target="_blank">
                           <i className="fab fa-instagram"></i>
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="https://www.linkedin.com/in/andrej-cvetkovski-52ba7a230/" target="_blank">
+                          <i className="fab fa-linkedin-in"></i>
                         </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
+
                 <div className="col-lg-8 col-md-12 col-sm-12 form-column">
                   <div className="form-inner">
                     <form method="post" action="sendemail.php" id="contact-form" className="default-form">
                       <div className="row clearfix">
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                          <input type="text" name="username" placeholder="Your Name" required />
+                          <input type="text" name="username" placeholder="Вашето име" required />
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                          <input type="email" name="email" placeholder="Your email" required />
+                          <input type="email" name="email" placeholder="Вашата е-пошта" required />
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                          <input type="text" name="phone" required placeholder="Phone" />
+                          <input type="text" name="phone" required placeholder="Телефон" />
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                          <input type="text" name="subject" required placeholder="Subject" />
+                          <input type="text" name="subject" required placeholder="Наслов" />
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                          <textarea name="message" placeholder="Type message"></textarea>
+                          <textarea name="message" placeholder="Вашата порака..."></textarea>
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                           <button className="theme-btn theme-btn-one" type="submit" name="submit-form">
-                            Send Message
+                            Испрати порака
                           </button>
                         </div>
                       </div>
@@ -130,7 +136,7 @@ export default function Home() {
               </div>
             </div>
           </section>
-          {/* Contact Form Section End */}
+          {/* Крај на контакт формата */}
         </div>
       </Layout>
     </>
