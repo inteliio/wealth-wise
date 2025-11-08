@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <>
-      <Layout headerStyle={2} footerStyle={1} breadcrumbTitle="Our services">
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Our services">
         <div>
           {/* service-style-two */}
           <section className="service-style-two p_relative">

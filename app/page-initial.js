@@ -10,6 +10,7 @@ import Expertise from "@/components/sections/home1/Expertise";
 import Process from "@/components/sections/home1/Process";
 import Testimonial from "@/components/sections/home1/Testimonial";
 import WhyChooseUs from "@/components/sections/home1/WhyChooseUs";
+
 export default function Home() {
   return (
     <>
