@@ -14,7 +14,7 @@ export default function ServiceDetails({ params }) {
         <section className="p_relative">
           <div className="auto-container centred">
             <h2>Услугата не постои или е отстранета.</h2>
-            <Link href="/services1" className="theme-btn-one mt_20">
+            <Link href="/services" className="theme-btn-one mt_20">
               Назад кон сите услуги
             </Link>
           </div>
@@ -36,7 +36,7 @@ export default function ServiceDetails({ params }) {
                   <ul className="category-list clearfix">
                     {services.map((s) => (
                       <li key={s.id} className={s.id.toString() === id ? "current" : ""}>
-                        <Link href={`/services1/${s.id}`}>{s.title}</Link>
+                        <Link href={`/services/${s.id}`}>{s.title}</Link>
                       </li>
                     ))}
                   </ul>

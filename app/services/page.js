@@ -32,11 +32,11 @@ export default function Home() {
                               <img src={service.icon} alt="icon" width={50} height={50} />
                             </div>
                             <h3>
-                              <Link href={`/services1/${service.id}`}>{service.title}</Link>
+                              <Link href={`/services/${service.id}`}>{service.title}</Link>
                             </h3>
                             <p>{service.shortDescription}</p>
                             <div className="btn-box">
-                              <Link href={`/services1/${service.id}`} className="theme-btn-one">
+                              <Link href={`/services/${service.id}`} className="theme-btn-one">
                                 Прочитај повеќе
                               </Link>
                             </div>

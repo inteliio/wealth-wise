@@ -38,7 +38,7 @@ export default function Footer1() {
                         <Link href="/about-us">За нас</Link>
                       </li>
                       <li>
-                        <Link href="/services1">Услуги</Link>
+                        <Link href="/services">Услуги</Link>
                       </li>
                       <li>
                         <Link href="/contact">Контакт</Link>
