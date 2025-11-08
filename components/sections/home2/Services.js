@@ -33,11 +33,11 @@ export default function Services() {
                           <img src={service.icon} alt="icon" width={50} height={50} />
                         </div>
                         <h3>
-                          <Link href="/strategy-planning">{service.title}</Link>
+                          <Link href={`/services/${service.id}`}>{service.title}</Link>
                         </h3>
                         <p>{service.shortDescription}</p>
                         <div className="btn-box">
-                          <Link href="/strategy-planning" className="theme-btn-one">
+                          <Link href={`/services/${service.id}`} className="theme-btn-one">
                             Прочитај повеќе
                           </Link>
                         </div>
