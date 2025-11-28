@@ -10,7 +10,7 @@ export default function ServiceDetails({ params }) {
   if (!service) {
     // fallback if invalid id
     return (
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Сервис не е пронајден">
+      <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Сервис не е пронајден">
         <section className="p_relative">
           <div className="auto-container centred">
             <h2>Услугата не постои или е отстранета.</h2>
@@ -24,7 +24,7 @@ export default function ServiceDetails({ params }) {
   }
 
   return (
-    <Layout headerStyle={1} footerStyle={1} breadcrumbTitle={service.title}>
+    <Layout headerStyle={3} footerStyle={1} breadcrumbTitle={service.title}>
       <section className="service-details p_relative">
         <div className="auto-container">
           <div className="row clearfix">

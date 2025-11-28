@@ -15,7 +15,7 @@ export default function About() {
               <div className="image_block_two">
                 <div className="image-box mr_30">
                   <figure className="image">
-                    <img src="assets/wealth-wise/images/why-choose-us.jpg" alt="wealth wise" />
+                    <img src="assets/wealth-wise/images/corporate.jpg" alt="wealth wise" />
                   </figure>
                 </div>
               </div>

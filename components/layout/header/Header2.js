@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
+import Image from "next/image";
 
 export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
   return (
@@ -27,7 +28,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
               </div>
               <div className="top-right">
                 <div className="login">
-                  <Link href="/">Login</Link>
+                  <Link href="/">Најава</Link>
                 </div>
                 <ul className="social-links clearfix">
                   <li>
@@ -54,11 +55,11 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
           <div className="auto-container">
             <div className="outer-box">
               <div className="logo-box">
-                <figure className="logo">
-                  <Link href="/">
-                    <img src="/assets/wealth-wise/logo/logo.svg" alt="" />
-                  </Link>
-                </figure>
+                {/* <figure className="logo"> */}
+                <Link href="/">
+                  <Image src="/assets/wealth-wise/logo/logo.svg" alt="logo" width={100} height={100} />
+                </Link>
+                {/* </figure> */}
               </div>
               <div className="menu-area clearfix">
                 <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
@@ -75,7 +76,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSide
               <ul className="menu-right-content">
                 <li className="btn-box">
                   <Link href="/contact" className="theme-btn-one">
-                    Free Consulting
+                    Бесплатна консултација
                   </Link>
                 </li>
               </ul>

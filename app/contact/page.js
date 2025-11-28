@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Контактирајте нè">
+      <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Контактирајте нè">
         <div>
           {/* Секција: Контакт информации */}
           <section className="feature-style-three p_relative centred">

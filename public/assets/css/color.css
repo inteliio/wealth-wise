@@ -194,7 +194,7 @@
 }
 
 .feature-block-two .inner-box .icon-box {
-  background: #ffb400;
+  background: #0b0b0b;
 }
 
 .feature-block-two .inner-box h3 a:hover {
@@ -620,5 +620,5 @@
 }
 
 .menu-area .mobile-nav-toggler {
-  background: #ffb400;
+  background: transparent;
 }

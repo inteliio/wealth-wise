@@ -22,13 +22,13 @@ export default function Home() {
   };
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="FAQ’S">
+      <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="ЧПП">
         <div>
           <section className="faq-page-section p_relative sec-pad">
             <div className="auto-container">
               <div className="sec-title mb_50 centred">
-                <span className="sub-title">Frequently Asked Questions</span>
-                <h2>How Can We Help You?</h2>
+                <span className="sub-title">Често поставувани прашања</span>
+                <h2>Како можеме да ви помогнеме?</h2>
               </div>
               <div className="row clearfix">
                 <div className="col-lg-6 col-md-12 col-sm-12 content-column">
@@ -37,11 +37,11 @@ export default function Home() {
                     <li className="accordion block">
                       <div className={isActive.key == 1 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(1)}>
                         <div className="icon-box"></div>
-                        <h3>What does you do?</h3>
+                        <h3>Што правите?</h3>
                       </div>
                       <div className={isActive.key == 1 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                          <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</div>
+                          <div className="text">Ние нудиме финансиски консултации, осигурување и инвестициски решенија прилагодени на вашите потреби. Нашата цел е да ви помогнеме да постигнете финансиска стабилност и сигурност.</div>
                         </div>
                       </div>
                     </li>
@@ -49,11 +49,11 @@ export default function Home() {
                     <li className="accordion block">
                       <div className={isActive.key == 2 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(2)}>
                         <div className="icon-box"></div>
-                        <h3>How Can I Safely Use My Business?</h3>
+                        <h3>Како можам безбедно да го користам мојот бизнис?</h3>
                       </div>
                       <div className={isActive.key == 2 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                          <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</div>
+                          <div className="text">Ние нудиме финансиски консултации, осигурување и инвестициски решенија прилагодени на вашите потреби. Нашата цел е да ви помогнеме да постигнете финансиска стабилност и сигурност.</div>
                         </div>
                       </div>
                     </li>
@@ -61,11 +61,11 @@ export default function Home() {
                     <li className="accordion block">
                       <div className={isActive.key == 3 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(3)}>
                         <div className="icon-box"></div>
-                        <h3>What industries covered?</h3>
+                        <h3>Кои индустрии се покриени?</h3>
                       </div>
                       <div className={isActive.key == 3 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                          <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</div>
+                          <div className="text">Ние нудиме финансиски консултации, осигурување и инвестициски решенија прилагодени на вашите потреби. Нашата цел е да ви помогнеме да постигнете финансиска стабилност и сигурност.</div>
                         </div>
                       </div>
                     </li>
@@ -77,11 +77,11 @@ export default function Home() {
                     <li className="accordion block">
                       <div className={isActive.key == 4 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(4)}>
                         <div className="icon-box"></div>
-                        <h3>What type of company is measured?</h3>
+                        <h3>Кој тип на компанија се мери?</h3>
                       </div>
                       <div className={isActive.key == 4 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                          <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</div>
+                          <div className="text">Ние нудиме финансиски консултации, осигурување и инвестициски решенија прилагодени на вашите потреби. Нашата цел е да ви помогнеме да постигнете финансиска стабилност и сигурност.</div>
                         </div>
                       </div>
                     </li>
@@ -89,11 +89,11 @@ export default function Home() {
                     <li className="accordion block">
                       <div className={isActive.key == 5 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(5)}>
                         <div className="icon-box"></div>
-                        <h3>What is the future plan for Wealth Wise?</h3>
+                        <h3>Која е идната плана за Wealth Wise?</h3>
                       </div>
                       <div className={isActive.key == 5 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                          <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</div>
+                          <div className="text">Ние нудиме финансиски консултации, осигурување и инвестициски решенија прилагодени на вашите потреби. Нашата цел е да ви помогнеме да постигнете финансиска стабилност и сигурност.</div>
                         </div>
                       </div>
                     </li>
@@ -101,11 +101,11 @@ export default function Home() {
                     <li className="accordion block">
                       <div className={isActive.key == 6 ? "acc-btn active" : "acc-btn"} onClick={() => handleToggle(6)}>
                         <div className="icon-box"></div>
-                        <h3>How do you price?</h3>
+                        <h3>Како ги цените?</h3>
                       </div>
                       <div className={isActive.key == 6 ? "acc-content current" : "acc-content"}>
                         <div className="content">
-                          <div className="text">Sodales posuere facilisi metus elementum ipsum egestas amet amet mattis commodo Nunc tempor amet massa diam mauris Risus sodales interdum.</div>
+                          <div className="text">Ние нудиме финансиски консултации, осигурување и инвестициски решенија прилагодени на вашите потреби. Нашата цел е да ви помогнеме да постигнете финансиска стабилност и сигурност.</div>
                         </div>
                       </div>
                     </li>
@@ -119,31 +119,31 @@ export default function Home() {
             <div className="pattern-layer" style={{ backgroundImage: "url(assets/images/shape/shape-40.png)" }}></div>
             <div className="auto-container">
               <div className="sec-title mb_50">
-                <span className="sub-title">Contact</span>
+                <span className="sub-title">Контакт</span>
                 <h2>
-                  Do You Have Any <br />
-                  Questions?
+                  Дали имате <br />
+                  прашања?
                 </h2>
               </div>
               <div className="form-inner">
                 <form action="faq.html" method="post">
                   <div className="row clearfix">
                     <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                      <input type="text" name="name" placeholder="Your name" required />
+                      <input type="text" name="name" placeholder="Вашето име" required />
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                      <input type="email" name="email" placeholder="Email address" required />
+                      <input type="email" name="email" placeholder="Е-пошта" required />
                     </div>
                     <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                      <input type="text" name="phone" placeholder="Phone number" required />
+                      <input type="text" name="phone" placeholder="Телефон" required />
                     </div>
                     <div className="col-lg-12 col-md-12 col-sm-12 form-group">
-                      <textarea name="message" placeholder="Message"></textarea>
+                      <textarea name="message" placeholder="Порака"></textarea>
                     </div>
                     <div className="col-lg-12 col-md-12 col-sm-12 form-group">
                       <div className="message-btn">
                         <button type="submit" className="theme-btn-one">
-                          Send Request
+                          Испрати барање
                         </button>
                       </div>
                     </div>

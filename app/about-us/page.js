@@ -29,7 +29,7 @@ export default function Home() {
   };
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">
+      <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="За Нас">
         {/* about-section */}
         <section className="team-details p_relative">
           <div className="auto-container">

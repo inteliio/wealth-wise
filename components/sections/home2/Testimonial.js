@@ -7,10 +7,7 @@ export default function Testimonial() {
         <div className="auto-container">
           <div className="sec-title mb_50 centred">
             <span className="sub-title">Искуства на клиенти</span>
-            <h2>
-              Што велат <br />
-              за нас?
-            </h2>
+            <h2>Што велат за нас?</h2>
           </div>
           <div className="col-lg-12 col-md-12 col-sm-12 content-column">
             <div className="content-box">

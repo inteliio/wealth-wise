@@ -6,10 +6,10 @@ import { services } from "@/types/services";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Our services">
+      <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Наши услуги">
         <div>
           {/* service-style-two */}
-          <section className="service-style-two p_relative bg-color-1">
+          <section className="service-style-two p_relative services-page-bg">
             <div className="auto-container">
               <div className="sec-title centred mb_50">
                 <span className="sub-title">Наши услуги</span>

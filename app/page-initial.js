@@ -14,7 +14,7 @@ import WhyChooseUs from "@/components/sections/home1/WhyChooseUs";
 export default function Home() {
   return (
     <>
-      <Layout headerStyle={2} footerStyle={2}>
+      <Layout headerStyle={3} footerStyle={2}>
         <Banner />
         <Features />
         <About />

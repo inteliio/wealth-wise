@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
 export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSidebar, handlePopup, handleSidebar }) {
@@ -12,11 +13,15 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
           <div className="outer-container">
             <div className="outer-box">
               <div className="logo-box">
-                <figure className="logo">
-                  <Link href="/">
-                    <img src="/assets/wealth-wise/logo/logo.svg" alt="" />
-                  </Link>
-                </figure>
+                <Link href="/">
+                  <Image src="/assets/wealth-wise/logo/logo-wealth-wise.svg" alt="logo" width={100} height={100} />
+                </Link>
+              </div>
+              {/* Free Consulting Button - Left of Menu Icon */}
+              <div className="consulting-btn-wrapper">
+                <Link href="/contact" className="theme-btn-one">
+                  Бесплатна консултација
+                </Link>
               </div>
               <div className="menu-area clearfix">
                 {/* Mobile Navigation Toggler */}
@@ -31,22 +36,6 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
                   </div>
                 </nav>
               </div>
-              <ul className="menu-right-content">
-                <li className="search-box-outer search-toggler" onClick={handlePopup}>
-                  <i className="icon-4"></i>
-                </li>
-                <li className="cart-box">
-                  <Link href="/shop">
-                    <i className="icon-26"></i>
-                  </Link>
-                </li>
-                <li className="btn-box">
-                  <Link href="/contact" className="theme-btn-one">
-                    {" "}
-                    Free Consulting{" "}
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -56,24 +45,29 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSide
           <div className="auto-container">
             <div className="outer-box">
               <div className="logo-box">
-                <figure className="logo">
-                  <Link href="/">
-                    <img src="/assets/wealth-wise/logo/logo.svg" alt="" />
-                  </Link>
-                </figure>
+                <Link href="/">
+                  <Image src="/assets/wealth-wise/logo/logo-wealth-wise.svg" alt="logo" width={100} height={100} />
+                </Link>
+              </div>
+              {/* Free Consulting Button - Left of Menu Icon */}
+              <div className="consulting-btn-wrapper">
+                <Link href="/contact" className="theme-btn-one">
+                  Бесплатна консултација
+                </Link>
               </div>
               <div className="menu-area clearfix">
+                {/* Mobile Navigation Toggler */}
+                <div className="mobile-nav-toggler" onClick={handleMobileMenu}>
+                  <i className="icon-bar"></i>
+                  <i className="icon-bar"></i>
+                  <i className="icon-bar"></i>
+                </div>
                 <nav className="main-menu navbar-expand-md navbar-light">
                   <div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                     <Menu />
                   </div>
                 </nav>
               </div>
-              <ul className="menu-right-content">
-                <li className="btn-box">
-                  <Link href="/contact">Free Consulting</Link>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

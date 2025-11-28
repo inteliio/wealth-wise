@@ -30,7 +30,7 @@ export default function Footer1() {
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="links-widget footer-widget ml_50">
                   <div className="widget-title">
-                    <h3>Брзи линкови</h3>
+                    <h3>Линкови</h3>
                   </div>
                   <div className="widget-content">
                     <ul className="links-list clearfix">
@@ -49,7 +49,7 @@ export default function Footer1() {
               </div>
 
               {/* Корисни линкови */}
-              <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
+              {/* <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
                 <div className="links-widget footer-widget ml_30">
                   <div className="widget-title">
                     <h3>Корисни информации</h3>
@@ -62,7 +62,7 @@ export default function Footer1() {
                     </ul>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Контакт */}
               <div className="col-lg-3 col-md-6 col-sm-12 footer-column">

@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
                 <div className="content-box p_relative ml_30">
                   <div className="sec-title mb_50">
                     <span className="sub-title">Зошто Wealth Wise</span>
-                    <h2>Причини зошто клиентите не избираат нас</h2>
+                    <h2 style={{ color: "white" }}>Причини зошто клиентите не избираат нас</h2>
                   </div>
                   <ul className="accordion-box">
                     {/*Accordion Block*/}

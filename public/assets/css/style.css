@@ -593,9 +593,13 @@ img {
 }
 
 .sec-title .sub-title {
+  padding: 5px 15px;
+  background-color: #0b0b0b;
+  color: white;
+  border-radius: 30px;
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 30px;
   font-weight: 500;
   margin-bottom: 12px;
@@ -2082,7 +2086,7 @@ div#mCSB_1_container {
 .header-style-three .header-lower {
   position: absolute;
   left: 70px;
-  top: 50px;
+  top: 20px;
   width: calc(100% - 140px);
   background: rgba(255, 255, 255, 0.07);
   backdrop-filter: blur(7.5px);
@@ -2126,6 +2130,95 @@ div#mCSB_1_container {
 
 .header-style-three .menu-right-content .theme-btn-one:before {
   display: none;
+}
+
+/* Free Consulting Button - After Navigation on Desktop */
+.header-style-three .consulting-btn-wrapper {
+  order: 2;
+  margin-left: 15px;
+}
+
+.header-style-three .consulting-btn-wrapper .theme-btn-one {
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+/* Menu area - Before button on desktop */
+.header-style-three .menu-area {
+  order: 1;
+  margin-left: auto;
+}
+
+/* Remove background from mobile menu icon */
+.header-style-three .menu-area .mobile-nav-toggler {
+  background: transparent !important;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-style-three .outer-box {
+    flex-wrap: nowrap;
+    position: relative;
+  }
+
+  .header-style-three .logo-box {
+    order: 0;
+  }
+
+  .header-style-three .logo-box img {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .header-style-three .consulting-btn-wrapper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    order: 2;
+    margin: 0;
+  }
+
+  .header-style-three .consulting-btn-wrapper .theme-btn-one {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+
+  .header-style-three .menu-area {
+    order: 3;
+    margin-left: auto;
+  }
+
+  /* Make header bar thinner on mobile */
+  .header-style-three .header-lower {
+    padding: 8px 0;
+    min-height: auto;
+  }
+
+  .header-style-three .outer-container {
+    padding: 0px 15px;
+  }
+
+  .header-style-three .menu-area .mobile-nav-toggler {
+    padding: 5px;
+  }
+
+  /* Sticky header thinner on mobile */
+  .header-style-three .sticky-header {
+    padding: 8px 0;
+  }
+
+  .header-style-three .sticky-header .auto-container {
+    padding: 0px 15px;
+  }
+
+  .header-style-three .sticky-header .logo-box {
+    padding: 5px 0px;
+  }
+
+  .header-style-three .sticky-header .logo-box img {
+    width: 60px !important;
+    height: 60px !important;
+  }
 }
 
 .list-style-one li {

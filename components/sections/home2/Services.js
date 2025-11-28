@@ -10,7 +10,7 @@ export default function Services() {
   };
   return (
     <>
-      <section className="service-style-two p_relative bg-color-1">
+      <section className="service-style-two p_relative bg-color-2">
         <div className="auto-container">
           <div className="sec-title centred mb_50">
             <span className="sub-title">Наши услуги</span>
